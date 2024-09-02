@@ -25,7 +25,7 @@ group: "navigation"
 * Philip Cameron-Smith (29 May 2025)
 * Fran Eggleton (12 Apr 2026)  
 * John Graybeal (29 May 2025)
-* Jonathan Gregory (chair of CF Committees, 6 July 2024) (29 May 2025)
+* Jonathan Gregory (chair of CF Committees, 28 August 2027) (29 May 2025)
 * David Hassell (secretary of the Conventions Committee) (31 Mar 2027)
 * Martin Juckes (12 Apr 2026)
 * Daniel Lee (30 Sep 2024)
