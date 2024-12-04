@@ -437,7 +437,7 @@ The <code class="language-plaintext highlighter-rouge">flag_meanings</code> attr
 <p>In NetCDF, a <code class="language-plaintext highlighter-rouge">coordinate variable</code> is a one-dimensional variable with the same name as its dimension [e.g., time(time)]; is a numeric data type; has values that are ordered monotonically (always going in one direction); and has no missing values.
 If you have a variable that contains coordinate values but does not meet these criteria, in CF you can still indicate that it has coordinate values by naming it as an auxiliary coordinate variable.</p>
 
-<p>The rules for creating and using auxiliary coordinate variables are described in the <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#coordinate-system">Coordinate Systems</a> section of the Convention.</p>
+<p>The rules for creating and using auxiliary coordinate variables are described in the <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#coordinate-system">Coordinate Systems</a> section of the Convention.</p>
 
 <h2 id="rich-technical-questions-about-cf">Rich technical questions about CF</h2>
 <p>The detailed and big picture concepts in CF.</p>
@@ -449,9 +449,9 @@ If you have a variable that contains coordinate values but does not meet these c
 <p>CF offers a rich set of options for specifying coordinate axes. Here is a short list of possibilities; others may be appropriate.</p>
 
 <ul>
-  <li><a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#discrete-axis">Discrete axes</a> can have unordered, enumerated axis values, like days of the week or model levels <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#alternative-coordinates">example</a>.</li>
+  <li><a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#discrete-axis">Discrete axes</a> can have unordered, enumerated axis values, like days of the week or model levels <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#alternative-coordinates">example</a>.</li>
   <li>Isotherms are described as a data variable of depth with a coordinate of (potential) temperature.</li>
-  <li>Various other vertical coordinate systems that are dimensionless are explicitly listed in <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#parametric-v-coord">Appendix D</a>, and are specified as described in <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#dimensionless-vertical-coordinate">Dimensionless Vertical Coordinates section</a>.</li>
+  <li>Various other vertical coordinate systems that are dimensionless are explicitly listed in <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#parametric-v-coord">Appendix D</a>, and are specified as described in <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#dimensionless-vertical-coordinate">Dimensionless Vertical Coordinates section</a>.</li>
   <li>Swath coordinates (e.g., ‘along-track’ and ‘across-track’ values often obtained from platforms following a path, like satellites, planes, and autonomous underwater vehicles) can be expressed as x,y coordinates that are mapped to latitude and longitude. There are <a href="https://github.com/cf-convention/cf-conventions/issues/269">open proposals</a> for specifying swath coordinates.</li>
   <li>
     <table>
@@ -478,7 +478,7 @@ Very briefly, values in either or both of these axes may vary (a single run may 
 If either axis contains just a single value, they are both specified as coordinates.
 If both are multi-valued, then they are each defined as one-dimensional auxiliary coordinate variables, with a common index dimension.</p>
 
-<p>CF section 5.7 has an <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#scalar-coordinate-variables">example of the first case</a>, with a scalar coordinate variable for forecast_reference_time and a multivalued time axis for the valid time.</p>
+<p>CF section 5.7 has an <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#scalar-coordinate-variables">example of the first case</a>, with a scalar coordinate variable for forecast_reference_time and a multivalued time axis for the valid time.</p>
 
 <p>An example of the second case can be found in the email referenced above.</p>
 
@@ -514,7 +514,7 @@ Use your good judgment!</p>
 
 <p>CF maintains a vocabulary specifically for specifying surface and area types; it is available on the CF site as the <a href="/cf-convention.github.io/Data/area-type-table/current/build/area-type-table.html">Area Type Table</a>, and can also be accessed as a <a href="http://mmisw.org/ont/cf/areatype">controlled vocabulary</a>.</p>
 
-<p>Terms from this vocabulary may be used as specified in the CF Convention <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#statistics-applying-portions">section 7.3.3 Statistics applying to portions of cells</a>.
+<p>Terms from this vocabulary may be used as specified in the CF Convention <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#statistics-applying-portions">section 7.3.3 Statistics applying to portions of cells</a>.
 However, it is also possible to describe a data variable by using a named quantity as a coordinate variable, and the area_type is often needed for such a purpose.
 The area_type can be attached as a dimensioned coordinate variable, or as a scalar coordinate.</p>
 
@@ -754,7 +754,7 @@ During the review process, the community attempts to normalize the terms to achi
 
 <ul>
   <li>provenance of the variable, including details of the process by which the value was obtained,</li>
-  <li>mathematical transformations such as addition, multiplication, and averaging (these are handled by <a href="/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#cell-methods">cell_methods</a>),</li>
+  <li>mathematical transformations such as addition, multiplication, and averaging (these are handled by <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#cell-methods">cell_methods</a>),</li>
   <li>specialized terms not meaningful to a broad scientific audience, unless widely used and agreed on by the community of origin,</li>
   <li>acronyms, or</li>
   <li>geospatial location or similar deployment information, for example wind_speed_at_10_meter_platform.</li>
