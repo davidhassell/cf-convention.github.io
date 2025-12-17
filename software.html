@@ -12,6 +12,8 @@
 
     <!-- Bootstrap  Core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/cf-convention.github.io/assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,18 +21,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-bottom: 20px;
-      }
-      p a.anchor {
-        display: block; 
-        position: relative;
-        top: -50px; 
-        visibility: hidden;
-      }
-    </style>
   </head>
 
   <body>
@@ -53,6 +43,32 @@
             
             
             
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -128,6 +144,8 @@
   
 
   
+
+  
     
       <li><a href="/cf-convention.github.io/Meetings/">Meetings</a></li>
     
@@ -181,14 +199,27 @@
 
   
 
+  
 
 
 
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/cf-convention" target="_blank" title="CF Conventions on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
+    <!-- Hero Section -->
+    
+
+    
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
     <div class="container">
@@ -280,7 +311,7 @@ The resulting object is logically equivalent to the original, and can be process
 
 <h3 id="netcdf-java-library">netCDF-Java Library</h3>
 
-<p>The <a href="https://www.unidata.ucar.edu/software/netcdf-java/">netCDF Java library</a> provides an interface for scientific data access.
+<p>The <a href="https://archive.unidata.ucar.edu/software/netcdf-java/">netCDF Java library</a> provides an interface for scientific data access.
 It can be used to read scientific data from a variety of file formats including netCDF, HDF, GRIB, BUFR, and many others, as well as a variety of remote data access protocols.
 It implements the <a href="https://docs.unidata.ucar.edu/netcdf-java/current/userguide/common_data_model_overview.html">Unidata Common Data Model</a> which uses CF and other metadata conventions in its Coordinate System and Scientific Feature Type layers.
 NetCDF-Java can write netCDF-3/4 files that conform to the CF Metadata Conventions.</p>
@@ -330,6 +361,12 @@ NetCDF data can be processed as tables, points, rasters, and, most recently, <a 
 In addition, various ArcGIS Pro tools enable multidimensional management (aggregation, subsetting, anomaly detection), <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/space-time-pattern-mining/an-overview-of-the-space-time-pattern-mining-toolbox.htm">spatio-temporal analysis</a> (trend detection, time-series clustering, changepoint detection, hot spot detection), and visualization as 3D features or <a href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/what-is-a-voxel-layer-.htm">voxels</a>.
 Analysis results based on netCDF data can be shared and viewed across the web as interactive maps, 3D features, and voxels.</p>
 
+<h2 id="other-tools">Other tools</h2>
+
+<h3 id="nansen-legacy-template-generator">Nansen Legacy template generator</h3>
+
+<p>This <a href="https://www.nordatanet.no/aen/template-generator/config%3DCF-NetCDF">template generator</a> can be used to create spreadsheet templates that include column headers from the CF standard names. The templates include separate sheets for recording variable and global attributes, based on the CF and the Attribute Convention for Data Discovery (ACDD).</p>
+
 
       <hr>
       <footer>
@@ -348,7 +385,7 @@ Analysis results based on netCDF data can be shared and viewed across the web as
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="/cf-convention.github.io/Data/media/js/links.js"></script>
 
   </body>
